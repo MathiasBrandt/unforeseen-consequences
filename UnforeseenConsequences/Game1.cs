@@ -80,7 +80,7 @@ namespace UnforeseenConsequences
             //TODO: Add your drawing code here
             spriteBatch.Begin();
             spriteBatch.Draw(pink, new Rectangle(100, 100, 1000, 75), Color.Pink);
-            spriteBatch.DrawString(font, "Look at me I'm a fucking phone!!!", new Vector2(100), Color.Black, 0, Vector2.Zero, 4, SpriteEffects.None, 0);
+            spriteBatch.DrawString(font, "Look at me I'm a fucking phone!!!", new Vector2(100), Color.Black);
             spriteBatch.End();
 
             base.Draw(gameTime);
